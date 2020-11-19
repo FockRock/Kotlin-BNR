@@ -13,6 +13,7 @@ fun main() {
 
 }
 
+
 private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean): String {
     val status: String = when (healthPoints) {
         100 -> "is in excellent condition!"
