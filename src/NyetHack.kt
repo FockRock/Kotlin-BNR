@@ -1,6 +1,6 @@
 fun main() {
     val name = "Nick"
-    var healthPoints = 50
+    val healthPoints = 50
     val isBlessed = true
     val isImmortal = false
 
@@ -12,7 +12,6 @@ fun main() {
     drunkBooze(13)
 
 }
-
 
 private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean): String {
     val status: String = when (healthPoints) {
